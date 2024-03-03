@@ -1,14 +1,15 @@
 {{#> BaseLayout}}
 
-    <form id="authorizationForm" class="formWrapper">
+    <form id="authorizationForm" class="vertical formWrapper">
         <h1 class="title">{{title}}TTI</h1>
-        <div class="blockWrapper">
+
+        <div class="vertical fullWidth fieldWrapper">
             {{> TextField type="text" id="login" name="login" helper="Логин" }}
             {{> TextField type="password" id="password" name="password" helper="Пароль" }}
         </div>
 
-        <div class="blockWrapper">
-            <button type="submit">Авторизоваться</button>
+        <div class="vertical vcenter fullWidth buttonWrapper">
+            {{> Button type='submit' text='Авторизоваться'}}
             <a href="/registration">Нет аккаунта ?</a>
         </div>
     </form>

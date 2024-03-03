@@ -3,7 +3,9 @@
     --primary: #1c3d70;
     --primary_light: #e5d8f9;
     --primary_text: #1e1e1e;
+    --primary_text_white: #ffffff;
     --primary_bg: #f1f1f1;
+    --primary_bg_default: #ffffff;
     --primary_hint: #999999;
     --primary_link: #3369f3;
     --primary_error: #ff2f2f;
@@ -25,14 +27,14 @@
     --fs-base: 11px;
     --fs-button_text: 14px;
     --fs-helper_text: var(--fs9);
-    --fs-hint_text: 8px;
+    --fs-hint_text: var(--br);
     --fs-h1: 40px;
     --fs-h6: 20px;
     --fs-chat_name: var(--fs13);
     --fs-chat_last: var(--fs12);
     --fs-chat_date: var(--fs9);
     --fs-chat-message-text: var(--fs12);
-    --fs-profile-param: var(--fs13);
+    --fs-profile_param: var(--fs13);
     --fs-profile_value: var(--fs13);
 
     // font weight
@@ -52,6 +54,33 @@
     --fw-chat_last: var(--fw-medium);
     --fw-chat_date: var(--fw-medium);
     --fw-chat-message-text: var(--fw-medium);
-    --fw-profile-param: var(--fw-medium);
+    --fw-profile_param: var(--fw-medium);
     --fw-profile_value: var(--fw-medium);
+
+    // gaps
+    --g24: 24px;
+    --g20: 20px;
+    --g12: 12px;
+
+    // border
+    --b: 1px solid var(--secondary_dark);
+    --br: var(--br);
+
+    // orientation
+    .vertical {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vcenter {
+        align-items: center;
+    }
+
+    .hcenter {
+        justify-content: center;
+    }
+
+    .fullWidth {
+        width: 100%;
+    }
 }

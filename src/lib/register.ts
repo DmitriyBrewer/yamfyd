@@ -13,6 +13,7 @@ export const allPartials: Record<string, string> = {
     Auth: partials.AuthPage,
     BaseLayout: partials.BaseLayout,
     TextField: partials.TextField,
+    Button: partials.Button,
 };
 
 registerHandlebarsPartials(allPartials);
