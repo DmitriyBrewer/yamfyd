@@ -10,9 +10,9 @@ function registerHandlebarsPartials(partials: Record<string, string>) {
 }
 
 export const allPartials: Record<string, string> = {
-    auth: partials.AuthPage,
-    footer: partials.FooterPage,
-    baseLayout: partials.BaseLayout,
+    Auth: partials.AuthPage,
+    BaseLayout: partials.BaseLayout,
+    TextField: partials.TextField,
 };
 
 registerHandlebarsPartials(allPartials);

@@ -1,19 +1,16 @@
-{{#> baseLayout}}
-    <h1>{{title}}</h1>
+{{#> BaseLayout}}
 
-    <form id="authorizationForm">
-        <label for="login">Login:</label>
-        <input type="text" id="login" name="login" required>
-        
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-        
-        <button type="submit">Authorize</button>
+    <form id="authorizationForm" class="formWrapper">
+        <h1 class="title">{{title}}TTI</h1>
+        <div class="blockWrapper">
+            {{> TextField type="text" id="login" name="login" helper="Логин" }}
+            {{> TextField type="password" id="password" name="password" helper="Пароль" }}
+        </div>
+
+        <div class="blockWrapper">
+            <button type="submit">Авторизоваться</button>
+            <a href="/registration">Нет аккаунта ?</a>
+        </div>
     </form>
 
-    <p id="errorMessage" style="color: red; display: none;">Invalid login or password. Please try again.</p>
-
-    <p>Don't have an account? <a href="/registration">Register here</a></p>
-
-    {{> footer}}
-{{/ baseLayout}}
+{{/ BaseLayout}}

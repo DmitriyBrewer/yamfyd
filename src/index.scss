@@ -1,0 +1,57 @@
+.root {
+    // color
+    --primary: #1c3d70;
+    --primary_light: #e5d8f9;
+    --primary_text: #1e1e1e;
+    --primary_bg: #f1f1f1;
+    --primary_hint: #999999;
+    --primary_link: #3369f3;
+    --primary_error: #ff2f2f;
+    --secondary: #efefef;
+    --secondary_dark: #272727;
+    --secondary_bg: #fbfbfb;
+    --secondary_text: #999999;
+
+    // font family
+    // TODO подключить roboto
+
+    // font-size
+    --fs9: 9px;
+    --fs12: 12px;
+    --fs13: 13px;
+
+    --fs-title: 20px;
+    --fs-input_text: var(--fs13);
+    --fs-base: 11px;
+    --fs-button_text: 14px;
+    --fs-helper_text: var(--fs9);
+    --fs-hint_text: 8px;
+    --fs-h1: 40px;
+    --fs-h6: 20px;
+    --fs-chat_name: var(--fs13);
+    --fs-chat_last: var(--fs12);
+    --fs-chat_date: var(--fs9);
+    --fs-chat-message-text: var(--fs12);
+    --fs-profile-param: var(--fs13);
+    --fs-profile_value: var(--fs13);
+
+    // font weight
+    --fw-medium: 500;
+    --fw-semi-bold: 600;
+    --fw-bold: 700;
+
+    --fw-title: var(--fw-medium);
+    --fw-input_text: var(--fw-medium);
+    --fw-base: var(--fw-medium);
+    --fw-button_text: var(--fw-bold);
+    --fw-helper_text: var(--fw-medium);
+    --fw-hint_text: var(--fw-medium);
+    --fw-h1: var(--fw-medium);
+    --fw-h6: var(--fw-medium);
+    --fw-chat_name: var(--fw-semi-bold);
+    --fw-chat_last: var(--fw-medium);
+    --fw-chat_date: var(--fw-medium);
+    --fw-chat-message-text: var(--fw-medium);
+    --fw-profile-param: var(--fw-medium);
+    --fw-profile_value: var(--fw-medium);
+}

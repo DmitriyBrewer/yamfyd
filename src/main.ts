@@ -1,11 +1,12 @@
 import renderTemplate from "./lib/render";
 import navigateToPage from "./lib/navigate";
+import "./index.scss";
 
 type AuthData = {
     title: string;
 };
 
-const authPage = renderTemplate<AuthData>("auth", {
+const authPage = renderTemplate<AuthData>("Auth", {
     data: { title: "Hello" },
 });
 
@@ -14,7 +15,7 @@ function goToAuthPage() {
 }
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
-  <div>
+  <div class='root'>
     <a id="authLink" href="/auth">Go to Auth Page</a>
     ${authPage}
   </div>
