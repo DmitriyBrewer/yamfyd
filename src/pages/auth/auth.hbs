@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Authorization Form</title>
-</head>
-<body>
-    {{> (partial 'header')}}
-    
-    <h1>Authorization Form</h1>
+{{#> baseLayout}}
+    <h1>{{title}}</h1>
 
     <form id="authorizationForm">
         <label for="login">Login:</label>
@@ -25,6 +15,5 @@
 
     <p>Don't have an account? <a href="/registration">Register here</a></p>
 
-    {{> (partial 'footer')}}
-</body>
-</html>
+    {{> footer}}
+{{/ baseLayout}}
