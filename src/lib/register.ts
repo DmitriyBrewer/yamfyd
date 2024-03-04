@@ -21,6 +21,9 @@ export const allPartials: Record<string, string> = {
     FieldWrapper: partials.FieldWrapper,
     ButtonWrapper: partials.FieldWrapper,
     ErrorPage: partials.ErrorPage,
+    SidebarLayout: partials.SidebarLayout,
+    ChatPage: partials.ChatPage,
+    Sidebar: partials.Sidebar,
 };
 
 registerHandlebarsPartials(allPartials);

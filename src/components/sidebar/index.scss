@@ -1,0 +1,10 @@
+.sidebar {
+    height: 100%;
+    background-color: var(--secondary_bg);
+}
+
+.sidebarMenu {
+    display: flex;
+    justify-content: flex-end;
+    padding: var(--g24) var(--g12);
+}

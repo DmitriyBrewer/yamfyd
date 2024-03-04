@@ -9,3 +9,6 @@ export { Title } from "../components/title";
 export { FieldWrapper } from "../components/field-wrapper";
 export { ButtonWrapper } from "../components/button-wrapper";
 export { ErrorPage } from "../pages/error-page";
+export { SidebarLayout } from "../layout/sidebar-layout";
+export { ChatPage } from "../pages/chat";
+export { Sidebar } from "../components/sidebar";
