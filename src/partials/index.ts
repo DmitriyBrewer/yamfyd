@@ -1,4 +1,5 @@
 export { AuthPage } from "../pages/auth";
+export { RegistrationPage } from "../pages/registration";
 export { FooterPage } from "../pages/footer/footer";
 export { BaseLayout } from "../layout/base-layout";
 export { TextField } from "../components/text-field";

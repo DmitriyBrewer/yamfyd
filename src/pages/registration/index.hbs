@@ -1,7 +1,7 @@
 {{#> BaseLayout}}
 
     <form id="authorizationForm" class="vertical formWrapper">
-        <h1 class="title">{{data.title}}TTI</h1>
+        <h1 class="title">{{data.title}}Регистрация</h1>
 
         <div class="vertical fullWidth fieldWrapper">
             {{> TextField type="text" id="login" name="login" helper="Логин" }}
@@ -10,7 +10,7 @@
 
         <div class="vertical vcenter fullWidth buttonWrapper">
             {{> Button type='submit' text='Авторизоваться'}}
-            <a href="/registration">Нет аккаунта ?</a>
+            <a href="/auth">Войти</a>
         </div>
     </form>
 

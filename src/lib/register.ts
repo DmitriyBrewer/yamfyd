@@ -11,6 +11,7 @@ function registerHandlebarsPartials(partials: Record<string, string>) {
 
 export const allPartials: Record<string, string> = {
     Auth: partials.AuthPage,
+    Registration: partials.RegistrationPage,
     BaseLayout: partials.BaseLayout,
     TextField: partials.TextField,
     Button: partials.Button,
