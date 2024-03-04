@@ -1,5 +1,4 @@
 import renderTemplate from "../../lib/render";
-import "./index.scss";
 
 type Data = {
     title: string;
@@ -7,9 +6,7 @@ type Data = {
 
 document.addEventListener("DOMContentLoaded", () => {
     if (window.location.href.includes("/registration")) {
-        const registrationPage = renderTemplate<Data>("Registration", {
-            data: { title: "Регистрация" },
-        });
+        const registrationPage = renderTemplate<Data>("Registration");
         document.querySelector(".root")!.innerHTML = registrationPage;
     }
 
@@ -17,9 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (registrationLink) {
         registrationLink.addEventListener("click", (event) => {
             event.preventDefault();
-            const registrationPage = renderTemplate<Data>("Registration", {
-                data: { title: "Регистрация" },
-            });
+            const registrationPage = renderTemplate<Data>("Registration");
             document.querySelector(".root")!.innerHTML = registrationPage;
 
             window.history.pushState({}, "", "/registration");
