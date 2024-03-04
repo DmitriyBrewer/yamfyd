@@ -15,6 +15,7 @@ export const allPartials: Record<string, string> = {
     BaseLayout: partials.BaseLayout,
     TextField: partials.TextField,
     Button: partials.Button,
+    Link: partials.Link,
 };
 
 registerHandlebarsPartials(allPartials);

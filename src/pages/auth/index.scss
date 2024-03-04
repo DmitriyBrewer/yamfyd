@@ -1,4 +1,5 @@
 .formWrapper {
+    box-sizing: border-box;
     justify-content: space-between;
     align-items: center;
     padding: var(--g24) var(--g20);
@@ -12,6 +13,7 @@
     color: var(--primary_text);
     font-size: var(--fs-title);
     font-weight: var(--fw-title);
+    margin: 0;
 }
 
 .fieldWrapper {

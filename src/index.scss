@@ -41,6 +41,7 @@
     // TODO подключить roboto
 
     // font-size
+    --fs8: 8px;
     --fs9: 9px;
     --fs12: 12px;
     --fs13: 13px;
@@ -50,7 +51,7 @@
     --fs-base: 11px;
     --fs-button_text: 14px;
     --fs-helper_text: var(--fs9);
-    --fs-hint_text: var(--br);
+    --fs-hint_text: var(--fs8);
     --fs-h1: 40px;
     --fs-h6: 20px;
     --fs-chat_name: var(--fs13);
@@ -87,7 +88,7 @@
 
     // border
     --b: 1px solid var(--secondary_dark);
-    --br: var(--br);
+    --br: 8px;
 
     // orientation
     .vertical {

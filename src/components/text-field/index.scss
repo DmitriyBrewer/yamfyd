@@ -1,4 +1,22 @@
 .textField {
-    display: flex;
-    flex-direction: column;
+    row-gap: var(--g12);
+}
+
+.label {
+    color: var(--primary_hint);
+    font-size: var(--fs-helper_text);
+}
+
+.input {
+    background-color: var(--primary_bg);
+    border: none;
+    border-bottom: var(--b);
+    outline: none;
+    width: 100%;
+}
+
+.error-message {
+    color: var(--primary_error);
+    font-size: var(--fs-hint_text);
+    // display: none;
 }

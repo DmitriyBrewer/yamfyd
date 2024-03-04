@@ -6,7 +6,7 @@ type AuthData = {
 };
 
 const authPage = renderTemplate<AuthData>("Auth", {
-    data: { title: "Hello" },
+    data: { title: "Вход" },
 });
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
