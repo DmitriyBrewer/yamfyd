@@ -16,3 +16,4 @@ export { SearchField } from "../components/search-field";
 export { ChatItem } from "../components/chat-item";
 export { Avatar } from "../components/avatar";
 export { ChatTitle } from "../components/chat-title";
+export { ChatWindow } from "../components/chat-window";
