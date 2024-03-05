@@ -6,6 +6,8 @@
     box-sizing: border-box;
     padding: var(--g20) var(--g12);
     row-gap: var(--g16);
+    height: 100vh;
+    overflow-y: scroll;
 }
 
 .sidebarMenu {

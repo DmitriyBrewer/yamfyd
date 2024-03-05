@@ -14,3 +14,5 @@ export { ChatPage } from "../pages/chat";
 export { Sidebar } from "../components/sidebar";
 export { SearchField } from "../components/search-field";
 export { ChatItem } from "../components/chat-item";
+export { Avatar } from "../components/avatar";
+export { ChatTitle } from "../components/chat-title";

@@ -22,6 +22,60 @@ const mockChats = [
         time: "13:15",
         counter: 0,
     },
+    {
+        title: "Chat3",
+        message: "Last message 3",
+        time: "13:15",
+        counter: 0,
+    },
+    {
+        title: "Chat3",
+        message: "Last message 3",
+        time: "13:15",
+        counter: 0,
+    },
+    {
+        title: "Chat3",
+        message: "Last message 3",
+        time: "13:15",
+        counter: 0,
+    },
+    {
+        title: "Chat3",
+        message: "Last message 3",
+        time: "13:15",
+        counter: 0,
+    },
+    {
+        title: "Chat3",
+        message: "Last message 3",
+        time: "13:15",
+        counter: 0,
+    },
+    {
+        title: "Chat3",
+        message: "Last message 3",
+        time: "13:15",
+        counter: 0,
+    },
+    {
+        title: "Chat3",
+        message: "Last message 3",
+        time: "13:15",
+        counter: 0,
+    },
+    {
+        title: "Chat3",
+        message: "Last message 3",
+        time: "13:15",
+        counter: 5,
+    },
+    {
+        title: "Chat3",
+        message: "Last message 3",
+        time: "Пн",
+        counter: 4,
+    },
 ];
 
 document.addEventListener("DOMContentLoaded", () => {

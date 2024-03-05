@@ -26,6 +26,8 @@ export const allPartials: Record<string, string> = {
     Sidebar: partials.Sidebar,
     SearchField: partials.SearchField,
     ChatItem: partials.ChatItem,
+    Avatar: partials.Avatar,
+    ChatTitle: partials.ChatTitle,
 };
 
 registerHandlebarsPartials(allPartials);
