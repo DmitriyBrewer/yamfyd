@@ -1,13 +1,15 @@
 <div class="vertical textField">
-    <label for="{{name}}" class="label">{{helper}}</label>
-    <input
-        type="{{type}}"
-        id="{{id}}"
-        name="{{name}}"
-        placeholder="{{helper}}"
-        required
-        class="input"
-        pattern="{{pattern}}"
-    />
-    <div class="error-message">Ошибка</div>
+    <div>
+        <label for="{{name}}" class="label">{{helper}}</label>
+        <input
+            type="{{type}}"
+            id="{{id}}"
+            name="{{name}}"
+            placeholder="{{helper}}"
+            required
+            class="input"
+            pattern="{{pattern}}"
+        />
+    </div>
+    <div class="error-message">{{error}}</div>
 </div>

@@ -1,5 +1,5 @@
 {{#> BaseLayout}}
-{{#> Form id='authorizationForm'}}
+{{#> Form id='registrationForm'}}
 {{> Title title='Регистрация'}}
 
 {{#> FieldWrapper}}
@@ -10,7 +10,7 @@
     {{> TextField type="tel" id="phone" name="phone" helper="Телефон" pattern="[+][0-9]{1} [(][0-9]{3}[)] [0-9]{3} [0-9]{2} [0-9]{2}"}}
 
     {{> TextField type="password" id="password" name="password" helper="Пароль" }}
-    {{> TextField type="password" id="password" name="password" helper="Пароль ещё раз" }}
+    {{> TextField type="password" id="password" name="password" helper="Пароль ещё раз" error="Пароли не совпадают"}}
 {{/ FieldWrapper}}
 
 {{#> ButtonWrapper}}

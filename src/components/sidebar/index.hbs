@@ -1,5 +1,10 @@
 <div class="sidebar">
-    <div class="sidebarMenu">
     {{> Link text="Профиль" href='/profile'}}
-    </div>
+    {{> SearchField type="text" id="search" name="search" placeholder="search" }}
+
+    <ul class="chats">
+     {{#each data.chats}}
+            {{>ChatItem title=this.title}}
+        {{/each}}
+    </ul>
 </div>

@@ -19,11 +19,13 @@ export const allPartials: Record<string, string> = {
     Form: partials.Form,
     Title: partials.Title,
     FieldWrapper: partials.FieldWrapper,
-    ButtonWrapper: partials.FieldWrapper,
+    ButtonWrapper: partials.ButtonWrapper,
     ErrorPage: partials.ErrorPage,
     SidebarLayout: partials.SidebarLayout,
     ChatPage: partials.ChatPage,
     Sidebar: partials.Sidebar,
+    SearchField: partials.SearchField,
+    ChatItem: partials.ChatItem,
 };
 
 registerHandlebarsPartials(allPartials);

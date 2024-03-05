@@ -4,8 +4,8 @@
 {{> Title title='Вход'}}
 
 {{#> FieldWrapper}}
-{{> TextField type="text" id="login" name="login" helper="Логин" }}
-{{> TextField type="password" id="password" name="password" helper="Пароль" }}
+{{> TextField type="text" id="login" name="login" helper="Логин" error="Неверный логин"}}
+{{> TextField type="password" id="password" name="password" helper="Пароль" error="Неверный пароль"}}
 {{/ FieldWrapper}}
 
 {{#> ButtonWrapper}}

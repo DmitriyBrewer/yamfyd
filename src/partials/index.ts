@@ -12,3 +12,5 @@ export { ErrorPage } from "../pages/error-page";
 export { SidebarLayout } from "../layout/sidebar-layout";
 export { ChatPage } from "../pages/chat";
 export { Sidebar } from "../components/sidebar";
+export { SearchField } from "../components/search-field";
+export { ChatItem } from "../components/chat-item";

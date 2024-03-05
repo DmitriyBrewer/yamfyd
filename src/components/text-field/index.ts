@@ -8,7 +8,6 @@ document.querySelectorAll(".textField").forEach((textField: Element) => {
 
     if (input && label && errorMessage) {
         input.addEventListener("focus", () => {
-            console.log("yes");
             if (label) {
                 label.classList.add("active");
             }
