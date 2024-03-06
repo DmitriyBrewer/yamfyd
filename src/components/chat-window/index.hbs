@@ -1,24 +1,24 @@
 <div class="chatWindow">
     <div class="chatWindow__header">
-    <div class="chatWindow__info">
-        {{> Avatar}}
-        {{> ChatTitle title='Chat1'}}
+        <div class="chatWindow__info">
+            {{> Avatar}}
+            {{> ChatTitle title=data.title}}
+        </div>
+        <div class="chatWindow__menu">
+            <img src="/assets/menu.svg" alt="menu"/>
+        </div>
     </div>
-    <div class="chatWindow__menu">
-        <img src="/assets/menu.svg" alt="menu"/>
-    </div>
-    </div>
-    <p class="chatWindow__date">{{date}}10:20</p>
+    <p class="chatWindow__date">{{data.date}} </p>
 
     <div class="chatWindow__message">
-        <p class="chatWindow__messageText">{{message}} сообщение текст сообщения и прочее</p>
-        <p class="chatWindow__date chatWindow__messageDate">{{date}}10:20</p>
+        <p class="chatWindow__messageText">{{data.message}} </p>
+        <p class="chatWindow__date chatWindow__messageDate">{{data.date}}</p>
     </div>
 
     <img src="/assets/screen.png" alt="screen" width="200"/>
 
-      <div class="chatWindow__myMessage">
-        <p class="chatWindow__messageText">{{message}} сообщение текст сообщения и прочее</p>
-        <p class="chatWindow__date chatWindow__messageDate">{{date}}10:20</p>
+    <div class="chatWindow__myMessage">
+        <p class="chatWindow__messageText">{{data.message}} </p>
+        <p class="chatWindow__date chatWindow__messageDate">{{data.date}} </p>
     </div>
 </div>

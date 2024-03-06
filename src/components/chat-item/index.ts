@@ -1,3 +1,4 @@
+import renderTemplate from "../../lib/render";
 import "./index.scss";
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -15,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             if (chatMain && chatMinor) {
                 const chatTitle =
-                    chatMain.querySelector(".chat__title")?.textContent ||
+                    chatMain.querySelector(".chatTitle")?.textContent ||
                     "Нет данных";
                 const chatMessage =
                     chatMain.querySelector(".chat__message")?.textContent ||
@@ -26,6 +27,17 @@ document.addEventListener("DOMContentLoaded", function () {
                 const chatCounter =
                     chatMinor.querySelector(".chat__counter")?.textContent ||
                     "Нет данных";
+
+                const chatWindowTemplate = renderTemplate("ChatWindow", {
+                    data: {
+                        title: chatTitle,
+                        message: chatMessage,
+                        date: chatTime,
+                    },
+                });
+
+                document.querySelector(".chatWindowWrapper")!.innerHTML =
+                    chatWindowTemplate;
 
                 console.log("Выбранный чат:");
                 console.log("Название: " + chatTitle);
