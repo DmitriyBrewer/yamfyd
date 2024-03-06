@@ -7,6 +7,10 @@
     align-items: center;
 
     &:hover {
+        background-color: var(--secondary);
+    }
+
+    &_active {
         background-color: var(--primary_light);
     }
 
