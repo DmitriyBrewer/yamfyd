@@ -1,4 +1,5 @@
 <div class="chatWindow">
+    <div class="chatWindow__content">
     <div class="chatWindow__header">
         <div class="chatWindow__info">
             {{> Avatar}}
@@ -10,15 +11,42 @@
     </div>
     <p class="chatWindow__date">{{data.date}} </p>
 
+<div class="chatWindow__wrapper">
     <div class="chatWindow__message">
         <p class="chatWindow__messageText">{{data.message}} </p>
         <p class="chatWindow__date chatWindow__messageDate">{{data.date}}</p>
     </div>
+</div>
 
+<div class="chatWindow__wrapper">
     <img src="/assets/screen.png" alt="screen" width="200"/>
+</div>
 
+
+
+<div class="chatWindow__wrapper chatWindow__my">
     <div class="chatWindow__myMessage">
         <p class="chatWindow__messageText">{{data.message}} </p>
-        <p class="chatWindow__date chatWindow__messageDate">{{data.date}} </p>
+
+        <div class="chatWindow__date chatWindow__messageDate">
+            <img src="/assets/status.svg" alt="status"/>
+            <p class="chatWindow__dateText">{{data.date}} </p>
+        </div>
     </div>
+</div>
+
+</div>
+
+<form class="chatWindow__sendWrapper">
+    <img src="/assets/file.svg" alt="file"/>
+ 
+
+    <input class="chatWindow__input "/>
+
+    <button class="chatWindow__send" type="submit">
+        <img src="/assets/arrow.svg" alt="send" class="chatWindow__arrow"/>
+    </button>
+
+</form>
+
 </div>
