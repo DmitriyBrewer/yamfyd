@@ -1,15 +1,10 @@
-.errorPage {
-    row-gap: var(--g20);
-}
-
-.errorTitle {
-    margin: 0;
-    font-size: var(--fs-h1);
-    font-weight: var(--fw-h1);
-}
-
-.subtitle {
-    margin: 0;
-    font-size: var(--fs-h6);
-    font-weight: var(--fw-h6);
+.nochat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: var(--primary_hint);
+    background-color: var(--primary_bg);
+    font-size: var(--fs-title);
+    font-weight: var(--fw-title);
 }
