@@ -1,14 +1,16 @@
 <div class="chatWindow">
     <div class="chatWindow__content">
+
     <div class="chatWindow__header">
         <div class="chatWindow__info">
             {{> Avatar}}
             {{> ChatTitle title=data.title}}
         </div>
-        <div class="chatWindow__menu">
+        <button class="chatWindow__menu" type="menu">
             <img src="/assets/menu.svg" alt="menu"/>
-        </div>
+        </button>
     </div>
+
     <p class="chatWindow__date">{{data.date}} </p>
 
 <div class="chatWindow__wrapper">
@@ -41,7 +43,7 @@
     <img src="/assets/file.svg" alt="file"/>
  
 
-    <input class="chatWindow__input "/>
+    <input class="chatWindow__input" placeholder="Сообщение"/>
 
     <button class="chatWindow__send" type="submit">
         <img src="/assets/arrow.svg" alt="send" class="chatWindow__arrow"/>
