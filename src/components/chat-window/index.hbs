@@ -1,54 +1,26 @@
 <div class="chatWindow">
-    <div class="chatWindow__content">
-
-    <div class="chatWindow__header">
-        <div class="chatWindow__info">
-            {{> Avatar}}
-            {{> ChatTitle title=data.title}}
-        </div>
-        <button class="chatWindow__menu" type="menu">
-            <img src="/assets/menu.svg" alt="menu"/>
-        </button>
-    </div>
+<div class="chatWindow__content">
+    {{>ChatHeader}}
 
     <p class="chatWindow__date">{{data.date}} </p>
 
-<div class="chatWindow__wrapper">
-    <div class="chatWindow__message">
-        <p class="chatWindow__messageText">{{data.message}} </p>
-        <p class="chatWindow__date chatWindow__messageDate">{{data.date}}</p>
-    </div>
-</div>
+    {{#> ChatMessage}}
+    {{> ChatText }}
+    {{/ ChatMessage}}
 
-<div class="chatWindow__wrapper">
+    {{#> ChatMessage}}
     <img src="/assets/screen.png" alt="screen" width="200"/>
-</div>
+    {{/ ChatMessage}}
 
 
 
-<div class="chatWindow__wrapper chatWindow__my">
-    <div class="chatWindow__myMessage">
-        <p class="chatWindow__messageText">{{data.message}} </p>
-
-        <div class="chatWindow__date chatWindow__messageDate">
-            <img src="/assets/status.svg" alt="status"/>
-            <p class="chatWindow__dateText">{{data.date}} </p>
-        </div>
-    </div>
-</div>
+    {{#> ChatMessage my='__my'}}
+    {{> ChatText my='__my'}} 
+    {{/ ChatMessage}}
 
 </div>
 
-<form class="chatWindow__sendWrapper">
-    <img src="/assets/file.svg" alt="file"/>
- 
 
-    <input class="chatWindow__input" placeholder="Сообщение"/>
-
-    <button class="chatWindow__send" type="submit">
-        <img src="/assets/arrow.svg" alt="send" class="chatWindow__arrow"/>
-    </button>
-
-</form>
+{{> ChatSend }}
 
 </div>

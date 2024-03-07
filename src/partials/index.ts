@@ -17,3 +17,7 @@ export { ChatItem } from "../components/chat-item";
 export { Avatar } from "../components/avatar";
 export { ChatTitle } from "../components/chat-title";
 export { ChatWindow } from "../components/chat-window";
+export { ChatMesssage } from "../components/chat-message";
+export { ChatText } from "../components/chat-text";
+export { ChatHeader } from "../components/chat-header";
+export { ChatSend } from "../components/chat-send";

@@ -29,6 +29,10 @@ export const allPartials: Record<string, string> = {
     Avatar: partials.Avatar,
     ChatTitle: partials.ChatTitle,
     ChatWindow: partials.ChatWindow,
+    ChatMessage: partials.ChatMesssage,
+    ChatText: partials.ChatText,
+    ChatHeader: partials.ChatHeader,
+    ChatSend: partials.ChatSend,
 };
 
 registerHandlebarsPartials(allPartials);
