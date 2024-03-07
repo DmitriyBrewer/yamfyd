@@ -21,3 +21,6 @@ export { ChatMesssage } from "../components/chat-message";
 export { ChatText } from "../components/chat-text";
 export { ChatHeader } from "../components/chat-header";
 export { ChatSend } from "../components/chat-send";
+export { ChatMenu } from "../components/chat-menu";
+export { ProfilePage } from "../pages/profile";
+export { ProfileParam } from "../components/profile-param";

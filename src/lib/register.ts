@@ -33,6 +33,9 @@ export const allPartials: Record<string, string> = {
     ChatText: partials.ChatText,
     ChatHeader: partials.ChatHeader,
     ChatSend: partials.ChatSend,
+    ChatMenu: partials.ChatMenu,
+    ProfilePage: partials.ProfilePage,
+    ProfileParam: partials.ProfileParam,
 };
 
 registerHandlebarsPartials(allPartials);
