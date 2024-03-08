@@ -27,4 +27,5 @@ module.exports = {
         quotes: ["error", "double"],
         semi: ["error", "always"],
     },
+    ignorePatterns: ["*.html"]
 };
