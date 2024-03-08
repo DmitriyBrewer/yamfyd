@@ -3,7 +3,7 @@ import renderTemplate from "../../lib/render";
 
 document.addEventListener("DOMContentLoaded", () => {
     if (window.location.href.includes("/profile/change")) {
-        const profile = renderTemplate("ProfilePage");
+        const profile = renderTemplate("ProfileChangeDataPage");
         document.querySelector(".root")!.innerHTML = profile;
     }
 

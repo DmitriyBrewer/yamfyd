@@ -3,7 +3,7 @@ import renderTemplate from "../../lib/render";
 
 document.addEventListener("DOMContentLoaded", () => {
     if (window.location.href.includes("/profile/change/password")) {
-        const profile = renderTemplate("ProfilePage");
+        const profile = renderTemplate("ProfileChangePasswordPage");
         document.querySelector(".root")!.innerHTML = profile;
     }
 
