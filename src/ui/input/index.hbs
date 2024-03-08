@@ -8,5 +8,10 @@
         required
     {{/if}}
     class="{{#if className}}{{className}}{{else}}input{{/if}}"
-    pattern={{pattern}}
+    {{#if autocomplete}}
+        autocomplete="{{autocomplete}}"
+    {{/if}}
+    {{#if pattern}}
+        pattern="{{pattern}}"
+    {{/if}}
 />

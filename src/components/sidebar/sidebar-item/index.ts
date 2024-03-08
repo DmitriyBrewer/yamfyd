@@ -24,9 +24,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 const chatTime =
                     chatMinor.querySelector(".chat__date")?.textContent ||
                     "Нет данных";
-                const chatCounter =
-                    chatMinor.querySelector(".chat__counter")?.textContent ||
-                    "Нет данных";
 
                 const chatWindowTemplate = renderTemplate("ChatWindow", {
                     data: {
@@ -38,12 +35,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 document.querySelector(".chatWindowWrapper")!.innerHTML =
                     chatWindowTemplate;
-
-                console.log("Выбранный чат:");
-                console.log("Название: " + chatTitle);
-                console.log("Сообщение: " + chatMessage);
-                console.log("Время: " + chatTime);
-                console.log("Счетчик: " + chatCounter);
             } else {
                 console.log("Ошибка: Не удалось найти данные чата");
             }
