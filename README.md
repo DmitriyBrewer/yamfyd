@@ -18,7 +18,7 @@
    npm install
    
 
-2. Запуск в режиме разработки
+2. Запуск в режиме разработки, используемый порт 3000
    
    npm run dev
    
@@ -28,7 +28,7 @@
    npm run build
    
 
-4. Сборка и просмотр
+4. Сборка и запуск проекта, используемый порт 3000
    
    npm run start
    
@@ -43,6 +43,14 @@
 - Handlebars
 - Express
 - Typescript
+
+## Доступные ссылки
+[Главная страница, страница авторизации](http://localhost:3000/)
+[Страница регистрации](http://localhost:3000/registration)
+[Старница чата](http://localhost:3000/chat)
+[Старница профиля](http://localhost:3000/profile)
+[Старница изменения данных профиля](http://localhost:3000/profile/change)
+[Старница изменения пароля профиля](http://localhost:3000/profile/change/password)
 
 ## Команда
 
