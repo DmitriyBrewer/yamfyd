@@ -1,4 +1,4 @@
-import * as partials from "../partials";
+import * as partials from "./partials";
 import handlebars from "handlebars";
 
 function registerHandlebarsPartials(partials: Record<string, string>) {
@@ -44,6 +44,8 @@ export const allPartials: Record<string, string> = {
     ProfileRoot: partials.ProfileRoot,
     Input: partials.Input,
     ProfileChangePasswordPage: partials.ProfileChangePasswordPage,
+    ButtonImage: partials.ButtonImage,
+    Image: partials.Image,
 };
 
 registerHandlebarsPartials(allPartials);

@@ -1,4 +1,4 @@
-import renderTemplate from "../../lib/render";
+import renderTemplate from "../../../lib/render";
 import "./index.scss";
 
 document.addEventListener("DOMContentLoaded", function () {

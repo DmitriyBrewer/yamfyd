@@ -1,19 +1,19 @@
 {{#> ProfileRoot}}
-    {{>ProfilePrev href='/' src='/assets/arrow-left.svg' alt='prev'}}
+    {{>ProfilePrev href='/profile' src='/assets/arrow-left.svg' alt='prev'}}
         {{#> ProfileContent}}
         {{> ProfileHeader}}
 
         {{#> ProfileParams}}
             {{#> ProfileParam param='Старый пароль' input='true'}}
-                {{> Input  type='password' id='id' name='name' placeholder='name' className='profileChangeData__input' }}
+                {{> Input dir='rtl' type='password' id='id' name='name' placeholder='name' className='profileChangeData__input' }}
             {{/ ProfileParam}}
 
             {{#> ProfileParam param='Новый пароль' input='true'}}
-                {{> Input  type='password' id='id' name='name' placeholder='name' className='profileChangeData__input' }}
+                {{> Input dir='rtl' type='password' id='id' name='name' placeholder='name' className='profileChangeData__input' }}
             {{/ ProfileParam}}
 
             {{#> ProfileParam param='Повторите новый пароль' input='true'}}
-                {{> Input  type='password' id='id' name='name' placeholder='name' className='profileChangeData__input' }}
+                {{> Input dir='rtl' type='password' id='id' name='name' placeholder='name' className='profileChangeData__input' }}
             {{/ ProfileParam}}
 
         {{/ ProfileParams}}

@@ -16,7 +16,7 @@
             {{> ProfileParam textLink='Изменить данные' href='/profile/change'}}
             {{> ProfileParam textLink='Изменить пароль' href='/profile/change/password'}}
             <div class="profile__buttonWrapper">
-                <button class="profile__logout">Выйти</button>
+                {{> Button type='button' text='Выйти' className='profile__logout'}}
             </div>
         {{/ ProfileParams}}
 {{/ ProfileContent}}
