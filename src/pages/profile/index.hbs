@@ -1,40 +1,24 @@
-<div class="profile">
-    <a href="/" class="profile__prev">
-        <button class="profile__prevButton" type="submit">
-            <img src="/assets/arrow.svg" alt="send" class="profile__arrow" />
-        </button>
-    </a>
-    <div class="profile__content">
+{{#> ProfileRoot}}
+    {{>ProfilePrev href='/' src='/assets/arrow-left.svg' alt='prev'}}
+        {{#> ProfileContent}}
+        {{> ProfileHeader}}
 
-        <div class="profile__head">
-            <div class="profile__avatar">
-                <img
-                    src="/assets/union.svg"
-                    alt="avatar"
-                    class="profile__avatarDefault"
-                />
-            </div>
-
-            <h1 class="profile__name">Name</h1>
-        </div>
-
-        <div class="profile__params">
+        {{#> ProfileParams}}
             {{> ProfileParam param='Почта' value='pochta@yandex.ru'}}
             {{> ProfileParam param='Логин' value='ivanivanov'}}
             {{> ProfileParam param='Имя' value='Иван'}}
             {{> ProfileParam param='Фамилия' value='Иванов'}}
             {{> ProfileParam param='Имя в чате' value='Ivan'}}
             {{> ProfileParam param='Телефон' value='+7 (909) 967 30 30'}}
-        </div>
+        {{/ ProfileParams}}
 
-        <div class="profile__params">
-            {{> ProfileParam textLink='Изменить данные' href='/'}}
-            {{> ProfileParam textLink='Изменить пароль' href='/'}}
-            {{#> ProfileParam action}}
+        {{#> ProfileParams}}
+            {{> ProfileParam textLink='Изменить данные' href='/profile/change'}}
+            {{> ProfileParam textLink='Изменить пароль' href='/profile/change/password'}}
+            <div class="profile__buttonWrapper">
                 <button class="profile__logout">Выйти</button>
-            {{/ ProfileParam}}
-        </div>
+            </div>
+        {{/ ProfileParams}}
+{{/ ProfileContent}}
 
-    </div>
-
-</div>
+{{/ ProfileRoot}}

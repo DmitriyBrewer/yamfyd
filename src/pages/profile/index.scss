@@ -3,81 +3,16 @@
     grid-template-columns: 64px 3fr;
     height: 100%;
 
-    &__prev {
-        height: 100%;
+    &__buttonWrapper {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: var(--primary_bg_default);
-    }
-
-    &__arrow {
-        width: 16px;
-        height: 16px;
-    }
-
-    &__prevButton {
-        cursor: pointer;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 28px;
-        height: 28px;
-        border-radius: var(--g20);
-        background-color: var(--primary);
-        border: none;
-    }
-
-    &__content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        row-gap: var(--g54);
-        background-color: var(--primary_bg);
-    }
-
-    &__head {
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        row-gap: var(--g20);
-    }
-
-    &__avatar {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 130px;
-        height: 130px;
-        border-radius: 100%;
-        background-color: var(--secondary);
-        border: var(--b);
-    }
-
-    &__avatarDefault {
-        width: 40px;
-        height: 40px;
-    }
-
-    &__name {
-        margin: 0;
-        font-size: var(--fs-title);
-        font-weight: var(--fw-title);
-        color: var(--primary-text);
-    }
-
-    &__params {
-        width: 510px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        row-gap: var(--g12);
+        width: 100%;
     }
 
     &__logout {
+        font-size: var(--fs-base);
+        font-weight: var(--fw-base);
+        padding: 0;
+        border: none;
         color: var(--primary_error);
     }
 }

@@ -36,6 +36,14 @@ export const allPartials: Record<string, string> = {
     ChatMenu: partials.ChatMenu,
     ProfilePage: partials.ProfilePage,
     ProfileParam: partials.ProfileParam,
+    ProfileChangeDataPage: partials.ProfileChangeDataPage,
+    ProfileHeader: partials.ProfileHeader,
+    ProfilePrev: partials.ProfilePrev,
+    ProfileContent: partials.ProfileContent,
+    ProfileParams: partials.ProfileParams,
+    ProfileRoot: partials.ProfileRoot,
+    Input: partials.Input,
+    ProfileChangePasswordPage: partials.ProfileChangePasswordPage,
 };
 
 registerHandlebarsPartials(allPartials);

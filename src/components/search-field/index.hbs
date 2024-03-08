@@ -1,12 +1,4 @@
 <div class="searchWrapper">
     <img src="/assets/search.png" alt="search" width="20" height="20" />
-    <input
-        type="{{type}}"
-        id="{{id}}"
-        name="{{name}}"
-        placeholder="{{placeholder}}"
-        pattern="{{pattern}}"
-        required
-        class="search"
-    />
+    {{> Input className="search" placeholder=placeholder type=type id=id name=name pattern=pattern }}
 </div>
