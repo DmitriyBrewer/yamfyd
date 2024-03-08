@@ -19,9 +19,6 @@
     src: url("/assets/font/Roboto-Bold.ttf") format("truetype");
 }
 
-// html {
-//     height: 100%;
-// }
 body {
     margin: 0;
     height: 100vh;
@@ -51,7 +48,6 @@ body {
     // font family
     --ff: "Roboto", sans-serif;
     font-family: var(--ff);
-    // TODO подключить roboto
 
     // font-size
     --fs8: 8px;
