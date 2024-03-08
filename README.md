@@ -5,7 +5,7 @@
 - Handlebars ![Handlebars](https://img.shields.io/badge/Handlebars-v4.7.8-orange)
 - Express ![Express](https://img.shields.io/badge/Express-v4.17.1-lightgrey)
 
-Это простое приложение чат-мессенджера, созданное с использованием Vite, Handlebars и Express.
+Это приложение чат-мессенджера, созданное с использованием Vite, Handlebars и Express.
 
 ## Польза проекта
 
